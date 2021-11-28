@@ -87,6 +87,9 @@ public class Topic_02_RegisterAlada {
 	public void sleepInSecond(long second) {
 		try {
 			Thread.sleep(second * 1000);
+		}catch (Exception e) {
+			//TODO: handle exception e.printStackTrace();
+		
 		}
 	}
 	
